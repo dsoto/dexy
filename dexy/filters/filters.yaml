@@ -1173,3 +1173,9 @@ cj:
     help: Changes file extension to .json
     input-extensions : [.*]
     output-extensions : [.json]
+
+markdownpdf:
+    class: SubprocessFilter
+    executable: markdown-pdf
+    input-extensions: [.md]
+    output-extensions: [.pdf]
